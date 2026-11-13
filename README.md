@@ -1,33 +1,29 @@
 # Deshidratador solar — micrositio
 
-Sitio estático listo para publicar. No requiere base de datos ni proceso de compilación.
+Micrositio del proyecto de **Prácticas Profesionalizantes I** del CENT N.º 18, San Juan.
 
-## Vista previa local
+**Profesor:** Germán Golder
 
-Desde esta carpeta:
+**Integrantes:** Eliana Porra · Lucas Tejada
 
-```bash
-python -m http.server 8000
-```
+## Contenido
+- Explicación del proyecto y funcionamiento.
+- Ensayo empírico con banana.
+- Video explicativo desde Google Drive.
+- Galería con todas las fotografías de la carpeta compartida (sin videos).
+- Recetario digital interactivo de 13 páginas y descarga del PDF.
+- Laboratorio solar 3D con posición del Sol y proyección de sombras.
+- Informes y documentación descargable.
 
-Luego abrir `http://localhost:8000`.
+## Publicación con GitHub Pages
+El sitio no requiere compilación.
 
-## Publicación recomendada: GitHub Pages
+1. Subir el contenido de esta carpeta a la raíz del repositorio.
+2. En GitHub: **Settings → Pages → Deploy from a branch**.
+3. Seleccionar `main` y `/(root)`.
+4. Guardar.
 
-1. Crear un repositorio público, por ejemplo `deshidratador-solar`.
-2. Subir el contenido de esta carpeta a la raíz del repositorio.
-3. En GitHub: **Settings → Pages → Deploy from a branch**.
-4. Seleccionar `main` y `/ (root)`.
-5. GitHub entregará un enlace similar a `https://usuario.github.io/deshidratador-solar/`.
+## Actualización de una versión ya publicada
+Subir nuevamente todos los archivos y carpetas de este paquete mediante **Add file → Upload files**. GitHub reemplazará los archivos con el mismo nombre y agregará `assets/recipe-pages/`.
 
-## Video
-
-El video explicativo no está copiado dentro del sitio para evitar un paquete de cientos de MB. Se reproduce mediante Google Drive:
-
-`Video explicativo.mp4` — ID de Drive `1ej8ecYF2f19MIL_Y4JQNudU46Mb_X6Gf`.
-
-Para que todos puedan verlo, debe estar compartido como **cualquier persona con el enlace puede ver**.
-
-## 3D
-
-El laboratorio utiliza Three.js desde jsDelivr. Por ello requiere conexión a Internet. El modelo es didáctico y se genera por programación usando las dimensiones del prototipo.
+El archivo principal debe quedar como `index.html` en la raíz.

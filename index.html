@@ -35,6 +35,7 @@
       <div class="hero-overlay"></div>
       <div class="hero-content wrap">
         <p class="eyebrow">CENT N.º 18 · Gestión de Energías Renovables · San Juan</p>
+        <p class="project-meta"><strong>Proyecto de la materia Prácticas Profesionalizantes I</strong><br>Profesor: Germán Golder<br>Integrantes: Eliana Porra · Lucas Tejada</p>
         <h1 id="heroTitle">Deshidratador solar<br><span>directo y pasivo</span></h1>
         <p class="hero-lead">Una tecnología sencilla para conservar alimentos usando radiación solar, circulación natural del aire y materiales accesibles.</p>
         <div class="hero-actions">
@@ -154,12 +155,11 @@
 
     <section class="section gallery-section" id="galeria">
       <div class="wrap">
-        <div class="section-kicker">06 · GALERÍA</div>
-        <div class="section-row">
-          <div><h2>Del primer armado al ensayo</h2><p>Usá las flechas, los puntos o deslizá con el dedo.</p></div>
+        <div class="section-row gallery-heading-row">
+          <div><h2>Galería</h2><p>Usá las flechas, los puntos o deslizá con el dedo.</p></div>
           <div class="gallery-controls">
             <button id="galleryPrev" aria-label="Foto anterior">←</button>
-            <span id="galleryCounter">1 / 10</span>
+            <span id="galleryCounter">1 / 1</span>
             <button id="galleryNext" aria-label="Foto siguiente">→</button>
           </div>
         </div>
@@ -172,20 +172,30 @@
     </section>
 
     <section class="section recipe-section" id="recetario">
-      <div class="wrap split recipe-grid">
-        <div class="recipe-cover-wrap">
-          <img src="assets/figures/recetario-portada.png" alt="Portada de Del sol a la mesa, guía visual y recetario sanjuanino" class="recipe-cover" />
-        </div>
-        <div>
-          <div class="section-kicker">07 · DEL SOL A LA MESA</div>
-          <h2>El deshidratador también necesita ideas para cocinar</h2>
-          <p class="lead">Un pequeño recetario para que quien replique el equipo sepa qué secar, en qué temporada y qué hacer después con los alimentos.</p>
-          <div class="season-chips"><span>Primavera</span><span>Verano</span><span>Otoño</span><span>Invierno</span></div>
-          <p>Incluye fichas de frutas y hortalizas, consejos de guardado, rehidratación, seguridad y 12 recetas: granola, barritas, tomate seco, sopas, budines, picadas y más.</p>
-          <div class="hero-actions left">
-            <a class="btn primary" href="downloads/recetario-del-sol-a-la-mesa.pdf" target="_blank" rel="noopener">Leer recetario</a>
-            <a class="btn outline" href="downloads/recetario-del-sol-a-la-mesa.pdf" download>Descargar PDF</a>
+      <div class="wrap">
+        <div class="section-kicker">07 · RECETARIO</div>
+        <div class="section-row recipe-head">
+          <div>
+            <h2>Recetario</h2>
+            <p>Pasá las páginas de <em>Del sol a la mesa</em> como si fuera un pequeño libro digital.</p>
           </div>
+          <div class="book-controls">
+            <button id="bookPrev" aria-label="Página anterior">←</button>
+            <span id="bookCounter">Páginas 1–2 / 13</span>
+            <button id="bookNext" aria-label="Página siguiente">→</button>
+            <button id="bookFullscreen" aria-label="Ver recetario en pantalla completa">⤢</button>
+          </div>
+        </div>
+        <div class="book-shell" id="bookShell" tabindex="0" aria-label="Recetario digital de 13 páginas">
+          <div class="book-spread" id="bookSpread">
+            <div class="book-page left-page"><img id="bookPageLeft" src="assets/recipe-pages/page-01.jpg" alt="Página 1 del recetario"></div>
+            <div class="book-gutter" aria-hidden="true"></div>
+            <div class="book-page right-page"><img id="bookPageRight" src="assets/recipe-pages/page-02.jpg" alt="Página 2 del recetario"></div>
+          </div>
+        </div>
+        <div class="recipe-download">
+          <a class="btn primary" href="downloads/recetario-del-sol-a-la-mesa.pdf" download>Descargar recetario en PDF</a>
+          <a class="btn outline" href="downloads/recetario-del-sol-a-la-mesa.pdf" target="_blank" rel="noopener">Abrir PDF completo</a>
         </div>
       </div>
     </section>
@@ -245,7 +255,7 @@
   <footer>
     <div class="wrap footer-grid">
       <div><strong>Deshidratador solar directo pasivo</strong><br>CENT N.º 18 · San Juan · 2026</div>
-      <div>Proyecto educativo · Gestión de Energías Renovables</div>
+      <div>Prácticas Profesionalizantes I · Profesor: Germán Golder · Eliana Porra · Lucas Tejada</div>
     </div>
   </footer>
 
